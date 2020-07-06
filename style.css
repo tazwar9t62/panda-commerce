@@ -2,7 +2,12 @@
     margin-bottom: 100px;
 }
 
-.carousel-bg {
+.nav-item:hover {
+    background-color: #fceae8;
+}
+
+
+.sp-bg {
     background-color: #fceae8;
     border-radius: 10px;
 }
@@ -49,4 +54,32 @@
 
 .categories img {
     width: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgb(238, 176, 219);
+}
+
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: grey;
+}
+
+footer {
+    text-align: center;
 }
